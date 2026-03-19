@@ -1,4 +1,7 @@
 /* Place CSS styles here */
+body {
+    background-color: #000000;
+}
 .card {
   width: 200px;
   height: 150px;
@@ -18,7 +21,6 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background-color: red;
 }
 
 .card-front {
@@ -29,6 +31,6 @@
   transform: rotateY(180deg);
 }
 
-.card:hover .card-inner {
+.card.is-flipped .card-inner {
   transform: rotateY(180deg);
 }
