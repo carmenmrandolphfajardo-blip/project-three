@@ -1,7 +1,24 @@
 // JS scripts placed here
-const card = document.querySelector('.card');
+$('.stack').click(function() {
+  
+  $(".carta").each(function(e) {
 
-card.addEventListener('click', function() {
-  card.classList.toggle('is-flipped');
+    setTimeout(function() {
+      $(".carta").eq(e).attr("class", "carta");
+    }, e * 150)
+    
+  });
+  
 });
 
+$('.spread').click(function() {
+  
+  $(".carta").each(function(e) {
+
+    setTimeout(function() {
+      $(".carta").eq(e).attr("class", "carta ani" + e);
+    }, e * 150)
+    
+  });
+  
+});

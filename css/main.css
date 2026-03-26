@@ -1,10 +1,16 @@
 /* Place CSS styles here */
 body {
-    background-color: #ffffff;
+    background-color: #000000;
 }
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .card {
-  width: 200px;
-  height: 150px;
+  width: 180px;
+  height: 311px;
   perspective: 1000px;
 }
 
@@ -31,7 +37,104 @@ body {
   transform: rotateY(180deg);
 }
 
-.card.is-flipped .card-inner {
+.card:hover .card-inner {
   transform: rotateY(180deg);
 }
 
+.grid {
+  width: 1170px;
+  margin:0 auto;
+}
+
+.list {
+  height: 652px;
+  position: relative;
+  list-style-type:none;
+  padding-left:0;
+}
+
+.carta {
+  
+  transition: all 1s cubic-bezier(0.68,-.55,.265,1.55);
+  
+  perspective: 1000;
+  transform-style: preserve-3d;
+  
+  float: left;
+  width: 180px;
+  height: 311px;
+  background-color: transparent;
+  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  
+  &:nth-child(5n) {
+      margin-right: 0;
+  }
+  
+  &.ani0 {
+      right: 948px;
+      bottom: 326px;
+  }
+  
+  &.ani1 {
+      right: 711px;
+      bottom: 326px;
+  }
+  
+  &.ani2 {
+      right: 474px;
+      bottom: 326px;
+  }
+  
+  &.ani3 {
+      right: 237px;
+      bottom: 326px;
+  }
+  
+  &.ani4 {
+      right: 0;
+      bottom: 326px;
+  }
+  
+  &.ani5 {
+      right: 948px;
+      bottom: 0;
+  }
+  
+  &.ani6 {
+      right: 711px;
+      bottom: 0;
+  }
+  
+  &.ani7 {
+      right: 474px;
+      bottom: 0;
+  }
+  
+  &.ani8 {
+      right: 237px;
+      bottom: 0;
+  }
+  
+}
+
+button {
+  font-family: "calder-lc", sans-serif;
+  font-size: 24px;
+  color: #efbf04;
+  background-color: transparent;
+  border: 2px solid #efbf04;
+  padding: 5px 10px;
+  margin: auto;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #efbf04;
+  border: 2px solid #efbf04;
+  cursor: pointer;
+}
