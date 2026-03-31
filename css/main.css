@@ -3,6 +3,13 @@ body {
     background-color: #000000;
 }
 
+.wrapper {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: none;
+  padding: 2px
+}
+
 h1 {
   font-family: pragmatapro-fraktur, serif;
   font-size: 72px;
@@ -11,8 +18,7 @@ h1 {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 0;
   border: none;
   padding: 0;
 }
