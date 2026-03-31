@@ -1,6 +1,12 @@
 // JS scripts placed here
+const spreadBtn = document.querySelector('.spread');
+const stackBtn = document.querySelector('.stack');
+
+
 $('.stack').click(function() {
-  
+  console.log("Stack button clicke", $(this));
+  spreadBtn.classList.add("active");
+  stackBtn.classList.remove("active");
   $(".carta").each(function(e) {
 
     setTimeout(function() {
@@ -12,7 +18,8 @@ $('.stack').click(function() {
 });
 
 $('.spread').click(function() {
-  
+  stackBtn.classList.add("active");
+  spreadBtn.classList.remove("active");
   $(".carta").each(function(e) {
 
     setTimeout(function() {

@@ -5,12 +5,16 @@ body {
 
 h1 {
   font-family: pragmatapro-fraktur, serif;
-  font-size: 48px;
+  font-size: 72px;
   font-weight: 700;
   color: #efbf04;
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
 }
 
 h2 {
@@ -20,6 +24,9 @@ h2 {
   text-align: center;
   display: flex;
   justify-content: center;
+  margin: 0;
+  border: none;
+  padding: 0;
 }
 
 img {
@@ -158,3 +165,10 @@ button:hover {
   cursor: pointer;
 }
 
+.stack, .spread {
+  display: none;
+}
+
+.active {
+  display: inline-block !important;
+}
