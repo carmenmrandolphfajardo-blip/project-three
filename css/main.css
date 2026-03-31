@@ -18,8 +18,8 @@ h1 {
 }
 
 h2 {
-  font-family: calder-lc, sans-serif;
-  font-size: 24px;
+  font-family: calder-dark, sans-serif;
+  font-size: 22px;
   color: #efbf04;
   text-align: center;
   display: flex;
@@ -148,8 +148,8 @@ img {
 }
 
 button {
-  font-family: "calder-lc", sans-serif;
-  font-size: 24px;
+  font-family: "calder-dark", sans-serif;
+  font-size: 22px;
   color: #efbf04;
   background-color: transparent;
   border: 2px solid #efbf04;
