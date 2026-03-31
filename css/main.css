@@ -3,6 +3,25 @@ body {
     background-color: #000000;
 }
 
+h1 {
+  font-family: pragmatapro-fraktur, serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #efbf04;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: calder-lc, sans-serif;
+  font-size: 24px;
+  color: #efbf04;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -138,3 +157,4 @@ button:hover {
   border: 2px solid #efbf04;
   cursor: pointer;
 }
+
