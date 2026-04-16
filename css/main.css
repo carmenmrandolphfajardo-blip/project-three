@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background-color: #000000;
+    background-color: #13612E;
 }
 
 .wrapper {
@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-  font-family: pragmatapro-fraktur, serif;
+  font-family: cinder, sans-serif;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 400;
   color: #efbf04;
   text-align: center;
   display: flex;
@@ -33,6 +33,38 @@ h2 {
   margin: 0;
   border: none;
   padding: 0;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+button {
+  font-family: "calder-dark", sans-serif;
+  font-size: 22px;
+  color: #efbf04;
+  background-color: #C90338;
+  border: 2px solid #efbf04;
+  padding: 5px 10px;
+  margin: auto;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button:hover {
+  color: #C90338;
+  background-color: #efbf04;
+  border: 2px solid #efbf04;
+  cursor: pointer;
+}
+
+.stack, .spread {
+  display: none;
+}
+
+.active {
+  display: inline-block !important;
 }
 
 img {
@@ -154,28 +186,3 @@ img {
   
 }
 
-button {
-  font-family: "calder-dark", sans-serif;
-  font-size: 22px;
-  color: #efbf04;
-  background-color: transparent;
-  border: 2px solid #efbf04;
-  padding: 5px 10px;
-  margin: auto;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-}
-
-button:hover {
-  color: #000000;
-  background-color: #efbf04;
-  border: 2px solid #efbf04;
-  cursor: pointer;
-}
-
-.stack, .spread {
-  display: none;
-}
-
-.active {
-  display: inline-block !important;
-}
